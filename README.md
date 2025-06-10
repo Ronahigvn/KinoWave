@@ -32,4 +32,4 @@
 
 Clone the project:
 ```bash
-git clone https://github.com/yourusername/KinoWawe.git
+git clone https://github.com/Ronahigvn/KinoWawe.git
