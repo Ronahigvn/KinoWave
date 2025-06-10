@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Film Rastgele - Günün Filmi & Filtreler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎬 KinoWave</h1>
+  </header>
+  <main>
+    <section id="today-movie-section">
+      <h2>🎞️ Günün Filmi</h2>
+      <div id="today-movie" class="movie-card"></div>
+    </section>
+
+    <section id="filter-section">
+      <h2>🔍 Film Filtrele</h2>
+      <div class="filters">
+        <select id="category-filter">
+          <option value="all">Tüm Kategoriler</option>
+        </select>
+        <select id="country-filter">
+          <option value="all">Tüm Ülkeler</option>
+        </select>
+        <button id="filter-btn">Filtrele</button>
+      </div>
+    </section>
+
+    <section id="random-movie-section">
+      <h2>🎲 Rastgele Film</h2>
+      <div id="random-movie" class="movie-card"></div>
+      <button id="new-random-btn">Yeni Film Getir</button>
+    </section>
+
+    <section id="favorites-section">
+      <h2>⭐ Favoriler</h2>
+      <button class="clear-btn" id="clear-favorites">Favorileri Temizle</button>
+      <div id="favorites-list" class="movie-list"></div>
+    </section>
+
+    <section id="watched-section">
+      <h2>✔️ İzlenenler</h2>
+      <button class="clear-btn" id="clear-watched">İzlenenleri Temizle</button>
+      <div id="watched-list" class="movie-list"></div>
+    </section>
+  </main>
+
+  <script src="movies.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
